@@ -8,7 +8,6 @@ terraform{
     }
 }
 
-<<<<<<< HEAD
 provider "aws" {
   region  = "us-east-1"
   version = "~> 2.50.0"
@@ -22,9 +21,4 @@ locals {
     Owner      = var.contact
     ManagedBy  = "Terraform"
   }
-=======
-provider "aws"{
-    region  = "us-east-1"
-    version = "~> 2.50.0"
->>>>>>> parent of f06daab... bastion created
 }
