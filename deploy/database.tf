@@ -30,7 +30,7 @@ resource "aws_db_instance" "main" {
   name                    = "recipe"
   allocated_storage       = 20
   storage_type            = "gp2"
-  engine                  = "postgress"
+  engine                  = "postgres"
   engine_version          = "11.4"
   instance_class          = "db.t2.micro"
   db_subnet_group_name    = aws_db_subnet_group.main.name
